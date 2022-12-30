@@ -54,7 +54,7 @@ module.exports = {
   // forceCoverageMatch: [],
 
   // A preset that is used as a base for Jest's configuration
-  preset: 'ts-jest',
+  preset: "ts-jest",
 
   // A path to a module which exports an async function that is triggered once before all test suites
   // globalSetup: '<rootDir>/src/__tests__/globalSetup.ts',
@@ -146,9 +146,9 @@ module.exports = {
   // testLocationInResults: false,
 
   // The glob patterns Jest uses to detect test files
-  testMatch: [
-    "<rootDir>/src/__tests__/**/*.spec.ts"
-  ],
+  // testMatch: [
+  //   "<rootDir>/src/__tests__/**/*.spec.ts"
+  // ],
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
